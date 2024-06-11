@@ -1,0 +1,64 @@
+h1, h3 {
+    color: red;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-image: url("Slike/Zaglavlje.jpg");
+}
+
+nav {
+    height: 40px;
+    background-image: url("Slike/Zaglavlje.jpg");
+}
+
+nav ul {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: white;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: black;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+section {
+    padding: 9px;
+    background-image: url("Slike/Pozadina.jpg");
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+    background-color: gray;
+}
